@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- left side navigation -->
+      <div class="sidebar">
+        <div class="title">
+          <i class="fas fa-dice-d20"></i>
+          <h1>Dashboard</h1>
+        </div>
+        <div class="nav">
+          <ul class="nav-icons">
+            <li>
+              <span><i class="fas fa-home"></i></span>Home
+            </li>
+            <li>
+              <span><i class="fas fa-address-card"></i></span>Profile
+            </li>
+            <li>
+              <span><i class="fas fa-comment-dots"></i></span>Messages
+            </li>
+            <li>
+              <span><i class="fas fa-history"></i></span>History
+            </li>
+            <li>
+              <span><i class="fas fa-tasks"></i></span>Tasks
+            </li>
+            <li>
+              <span><i class="fas fa-users"></i></span>Communities
+            </li>
+          </ul>
+        </div>
+        <div class="mix">
+          <ul class="nav-icons">
+            <li>
+              <span><i class="fas fa-cog"></i></span>Settings
+            </li>
+            <li>
+              <span><i class="fas fa-question-circle"></i></span>Support
+            </li>
+            <li>
+              <span><i class="fas fa-shield-alt"></i></span>Privacy
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- main area of the dashboard -->
+      <div class="main-area">
+        <!-- user area -->
+        <div class="header">
+          <div class="top-area">
+            <div class="search-bar">
+              <i class="fas fa-search"></i>
+              <div class="bar"></div>
+            </div>
+            <div class="user">
+              <i class="far fa-bell"></i>
+              <div class="avatar merlin"></div>
+              <p class="user-name">Merlin Ambrosius</p>
+            </div>
+          </div>
+          <div class="bottom-area">
+            <div class="user-welcome">
+              <div class="user-welcome-avatar avatar merlin"></div>
+              <div class="user-welcome-text">
+                <p class="welcome-text-header">Hi there,</p>
+                <p class="welcome-text-body">Merlin Ambrosius (@merlin)</p>
+              </div>
+            </div>
+            <div class="dash-options">
+              <button type="button" class="btn">New</button>
+              <button type="button" class="btn">Upload</button>
+              <button type="button" class="btn">Share</button>
+            </div>
+          </div>
+        </div>
+        <!-- dashboard area / cards -->
+        <div class="main">
+          <div class="projects">
+            <h1 class="main-headers">Your Projects</h1>
+            <div class="project-cards">
+              <div class="project-card">
+                <div class="p-card-text">
+                  <p class="p-card-text-header">Super Cool Project</p>
+                  <p class="card-text-body line-clamp">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nisi aliquam aut fugiat quibusdam, consectetur dolorum maiores mollitia voluptatibus maxime?
+                  </p>
+                </div>
+                <div class="p-card-icons">
+                  <ul>
+                    <li><i class="far fa-star"></i></li>
+                    <li><i class="far fa-eye"></i></li>
+                    <li><i class="fas fa-share-alt"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="p-card-text">
+                  <p class="p-card-text-header">Less Cool Project</p>
+                  <p class="card-text-body line-clamp">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, temporibus cumque placeat qui sed, quasi eos debitis et ut soluta deleniti officia necessitatibus. Beatae corrupti vel temporibus porro quis numquam.
+                  </p>
+                </div>
+                <div class="p-card-icons">
+                  <ul>
+                    <li><i class="far fa-star"></i></li>
+                    <li><i class="far fa-eye"></i></li>
+                    <li><i class="fas fa-share-alt"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="p-card-text">
+                  <p class="p-card-text-header">Impossible App</p>
+                  <p class="card-text-body line-clamp">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis tempore rem accusamus corporis distinctio autem!
+                  </p>
+                </div>
+                <div class="p-card-icons">
+                  <ul>
+                    <li><i class="far fa-star"></i></li>
+                    <li><i class="far fa-eye"></i></li>
+                    <li><i class="fas fa-share-alt"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="p-card-text">
+                  <p class="p-card-text-header">Easy Peasy App</p>
+                  <p class="card-text-body line-clamp">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eveniet quos pariatur sapiente blanditiis fugiat sunt, beatae illo est explicabo laborum, autem repudiandae totam porro. Hic, eos?
+                  </p>
+                </div>
+                <div class="p-card-icons">
+                  <ul>
+                    <li><i class="far fa-star"></i></li>
+                    <li><i class="far fa-eye"></i></li>
+                    <li><i class="fas fa-share-alt"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="p-card-text">
+                  <p class="p-card-text-header">Ad Blocker</p>
+                  <p class="card-text-body line-clamp">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta dolor quis in necessitatibus blanditiis provident est amet.
+                  </p>
+                </div>
+                <div class="p-card-icons">
+                  <ul>
+                    <li><i class="far fa-star"></i></li>
+                    <li><i class="far fa-eye"></i></li>
+                    <li><i class="fas fa-share-alt"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="p-card-text">
+                  <p class="p-card-text-header">Money Maker</p>
+                  <p class="card-text-body line-clamp">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aut saepe at eos dolores, odit dolorem in voluptas optio et enim nam necessitatibus sunt, recusandae nobis nisi aperiam aliquid magnam, id excepturi facere delectus consequuntur fugiat placeat! Maxime cumque nisi obcaecati aut quo, recusandae, fuga dicta, minus sunt accusamus laudantium.
+                  </p>
+                </div>
+                <div class="p-card-icons">
+                  <ul>
+                    <li><i class="far fa-star"></i></li>
+                    <li><i class="far fa-eye"></i></li>
+                    <li><i class="fas fa-share-alt"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="aside">
+            <div class="announcements">
+              <h1 class="main-headers">Announcements</h1>
+              <div class="announce-card">
+                <div class="card-item">
+                  <p class="item-header">Site Maintenance</p>
+                  <p class="item-text line-clamp">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure accusamus quaerat, ratione culpa porro ab ipsum. Minima voluptate quaerat assumenda dolore facilis ratione inventore quia!
+
+                  </p>
+                </div>
+                <div class="card-item">
+                  <p class="item-header">Community Share Day</p>
+                  <p class="item-text line-clamp">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet a similique assumenda fuga beatae cupiditate accusantium rerum cum, voluptas illo?
+                  </p>
+                </div>
+                <div class="card-item">
+                  <p class="item-header">Updated Privacy Policy</p>
+                  <p class="item-text line-clamp">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione vero id mollitia quasi delectus deserunt.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="trending">
+              <h1 class="main-headers">Trending</h1>
+              <div class="trending-card">
+                <div class="t-card-item">
+                  <div class="card-item-avatar avatar arthur"></div>
+                  <div class="card-item-bodytext">
+                    <div class="item-header">@arthur</div>
+                    <div class="item-text">King of England</div>
+                  </div>
+                </div>
+                <div class="t-card-item">
+                  <div class="card-item-avatar avatar lancelot"></div>
+                  <div class="card-item-bodytext">
+                    <div class="item-header">@lancelot</div>
+                    <div class="item-text">From the lake</div>
+                  </div>
+                </div>
+                <div class="t-card-item">
+                  <div class="card-item-avatar avatar alucan"></div>
+                  <div class="card-item-bodytext">
+                    <div class="item-header">@alucan</div>
+                    <div class="item-text">The butler</div>
+                  </div>
+                </div>
+                <div class="t-card-item">
+                  <div class="card-item-avatar avatar yvain"></div>
+                  <div class="card-item-bodytext">
+                    <div class="item-header">@Yvain</div>
+                    <div class="item-text">The bastard</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
